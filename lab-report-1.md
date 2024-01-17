@@ -35,7 +35,7 @@ cat: lecture1: Is a directory
 
 When a directory is provided in the code:
 
-`cd` edirects to the directory lecture1
+`cd` redirects to the directory lecture1 (Change Directory)
 
 `ls` lists all the files in the directory lecture1
 
@@ -44,12 +44,21 @@ When a directory is provided in the code:
 ## Path to a file:
 
 ```
-
+[user@sahara ~]$ cd lecture1/messages/en-us.txt
+bash: cd: lecture1/messages/en-us.txt: Not a directory
+[user@sahara ~]$ ls lecture1/messages/en-us.txt
+lecture1/messages/en-us.txt
+[user@sahara ~]$ cat lecture1/messages/en-us.txt
+Hello World!
 ```
 
-`cd`
-`ls`
-`cat`
+When a file is provided in the code:
+
+`cd` causes an __error__ as it only works with directories and not files
+
+`ls` essentially lists the file
+
+`cat` in this case is just used to print the contents of the file en-us.txt given by the path
 
 
 
