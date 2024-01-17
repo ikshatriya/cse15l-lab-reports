@@ -1,31 +1,55 @@
-# No arguments:
-## `cd`
-## `ls`
-## `cat`
-<img width="190" alt="image" src="https://github.com/ikshatriya/cse15l-lab-reports/assets/92131341/bbea1c63-76c8-464f-9393-86f367e1b156">
+# Lab Report 1
 
+***	
 
-# Path to a directory:
-## `cd`
-Redirects to the directory lecture1
+## No arguments:
 
-<img width="265" alt="image" src="https://github.com/ikshatriya/cse15l-lab-reports/assets/92131341/f79745a0-3425-4b04-8eea-4e10f53391b8">
+```
+[user@sahara ~]$ cd
+[user@sahara ~]$ ls
+lecture1
+[user@sahara ~]$ cat
+hola!
+hola!
+```
 
-## `ls`
-Lists all the files in the directory lecture1
+`cd` is used to change the directory. When cd is used in the terminal it jumps from one directory to another directory. 
 
-<img width="265" alt="image" src="https://github.com/ikshatriya/cse15l-lab-reports/assets/92131341/fd60a330-6f26-4733-9986-7f0ebac95dd1">
+`ls` shows the names of the files and folders inside the current working directory. It's another useful status-checking command.
 
-## `cat`
-Returns the content of the directory
-<img width="265" alt="image" src="https://github.com/ikshatriya/cse15l-lab-reports/assets/92131341/561140a1-bdb1-4b55-927e-aceeaa710395">
+`cat` essentially returns whats initially inputted.
 
+Hence we see the following output as displayed in the above screenshot
 
-# Path to a file:
-## `cd`
+## Path to a directory:
 
-## `ls`
-## `cat`
+```
+[user@sahara ~]$ cd lecture1
+[user@sahara ~/lecture1]$ cd
+[user@sahara ~]$ ls lecture1
+Hello.class  Hello.java  messages  README
+[user@sahara ~]$ cd
+[user@sahara ~]$ cat lecture1
+cat: lecture1: Is a directory
+```
+
+When a directory is provided in the code:
+
+`cd` edirects to the directory lecture1
+
+`ls` lists all the files in the directory lecture1
+
+`cat` returns the content of the directory
+
+## Path to a file:
+
+```
+
+```
+
+`cd`
+`ls`
+`cat`
 
 
 
